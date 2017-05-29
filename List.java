@@ -139,7 +139,7 @@ public class GenericList{
         boolean result;
         if(other == null)
             // we know this is not null so can't be equal
-            result = false;
+            result = true;
         else if(this == other)
             // quick check if this and other refer to same IntList object
             result = true;
