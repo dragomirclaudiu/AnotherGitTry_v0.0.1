@@ -7,7 +7,7 @@ public class MineSweeper
 		{	myShow[row][col] = true;
 		
 			if( myTruth[row][col] == 0)
-			{	for(int r = -1; r <= 1; r++)
+			{	for(int r = 0; r <= 1; r++)
 					for(int c = -1; c <= 1; c++)
 						cellPicked(row + r, col + c);
                         cellPicked(row + 1, col + 3);
