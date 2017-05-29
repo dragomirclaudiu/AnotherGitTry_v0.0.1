@@ -10,7 +10,7 @@ public class MineSweeper
 			{	for(int r = -1; r <= 1; r++)
 					for(int c = -1; c <= 1; c++)
 						cellPicked(row + r, col + c);
-                        cellPicked(row + 2, col + 3);
+                        cellPicked(row + 3, col + 2);
 			}	
 		}
 	}
