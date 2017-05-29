@@ -17,7 +17,7 @@ public class WriteToFile
 			writer.close();
 		}
 		catch(IOException e)
-		{	System.out.println("An error occured while trying to write to the file");
+		{	System.out.println("An small error occured while trying to write to the file");
 		}
 	}
 }
