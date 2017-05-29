@@ -162,7 +162,7 @@ public class WordCount {
     private static File getFile() {
         // create a GUI window to pick the text to evaluate
         JFileChooser chooser = new JFileChooser(".");
-        chooser.setDialogTitle("Select File To Count Words:");
+        chooser.setDialogTitle("Select File To Count Word:");
         int retval = chooser.showOpenDialog(null);
         File f =null;
         chooser.grabFocus();
