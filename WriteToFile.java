@@ -9,7 +9,7 @@ public class WriteToFile
 	{	try
 		{	PrintStream writer = new PrintStream( new File("randInts.txt"));
 			Random r = new Random();
-			final int LIMIT = 100;
+			final int LIMIT = 101;
 
 			for(int i = 0; i < LIMIT; i++)
 			{	writer.println( r.nextInt() );
@@ -17,7 +17,7 @@ public class WriteToFile
 			writer.close();
 		}
 		catch(IOException e)
-		{	System.out.println("An small error occured while trying to write to the file");
+		{	System.out.println("An smallish error occured while trying to write to the file");
 		}
 	}
 }
